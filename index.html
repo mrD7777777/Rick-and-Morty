@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rick and Morty</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="./image/Rick and Morty.png" alt="">
+        <p class="about">
+          View all characters from the Rick and Morty universe
+        </p>
+      </div>
+    </header>
+    <main>
+      <section id="about">
+        <div class="container">
+          <form class="about" action="#">
+            <div class="about__name">
+              <label for="Name">Name</label>
+              <input
+                class="about__search"
+                type="text"
+                name=""
+                id="Name"
+                placeholder="Rick"
+              />
+            </div>
+
+            <div class="about__species">
+              <label for="species">species</label>
+              <select class="about__main" ="" id="species">
+                <option class="about__item" value="">Choose one</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section id="info">
+        <div class="container">
+          <div class="info__cards">
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

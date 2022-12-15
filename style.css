@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "inter";
+  background: #f5f5f5;
+}
+
+.container {
+  max-width: 688px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 64px 0 38px 0;
+}
+
+img {
+  width: 688px;
+  text-align: center;
+}
+.about {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#about {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+.about__name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #818182;
+  display: flex;
+  flex-direction: column;
+}
+.about__search {
+  padding-left: 17px;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  width: 452px;
+  height: 38px;
+}
+.about__search::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #abb5be;
+}
+.about__search:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #abb5be;
+}
+.about__search::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #abb5be;
+}
+.about__species {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #818182;
+  display: flex;
+  flex-direction: column;
+}
+.about__main {
+  padding-left: 15px;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  width: 216px;
+  height: 38px;
+}
+.about__main::-moz-placeholder- {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #abb5be;
+}
+.about__main:-ms-input-placeholder- {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #abb5be;
+}
+.about__main::placeholder- {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #abb5be;
+}
+.about__item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #abb5be;
+}
+
+#info {
+  padding-top: 40px;
+}
+
+.info {
+  display: flex;
+}
+.info__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.info__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 334px;
+}
+.info__foto {
+  width: 334px;
+  height: auto;
+  background-color: blue;
+}
+.info__card__main {
+  padding: 24px;
+  background: #ffffff;
+}
+.info__card__title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #152536;
+}
+
+@media (max-width: 70px) {
+  img {
+    max-width: 90%;
+
+  }
+}
